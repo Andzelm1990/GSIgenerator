@@ -4,7 +4,7 @@ Pracując w geodezji, napotkałem pewien problem związany z tworzeniem osnowy g
 Często zdarzało się, że niektóre przewyższenia były nam już znane, na przykład odcinki między dwoma istniejącymi reperami lub zamknięcia w postaci okręgu czy kierunki powrotne. 
 Niestety, bez dostępu do plików pomiarowych, musieliśmy ponownie mierzyć te odcinki, aby dostarczyć pliki GSI (format używany w instrumentach geodezyjnych Leica) do odpowiednich urzędów. 
 Średnio odcinki miały długość około 3 kilometrów, a na pokonanie każdego z nich trzeba było poświęcić około 1,5 godziny. 
-Wtedy wpadłem na pomysł stworzenia pliku Excel, w którym po wprowadzeniu odpowiednich danych otrzymałbym odpowiednie kolumny, z których mogłemby utworzyć plik GSI. 
+Wtedy wpadłem na pomysł stworzenia pliku Excel, w którym po wprowadzeniu odpowiednich danych otrzymałbym odpowiednie kolumny, z których mogłem utworzyć plik GSI. 
 Dzięki temu rozwiązaniu mogłem wygenerować plik GSI dla odcinka o długości 3-4 kilometrów w zaledwie 20 minut (chociaż wiele elementów musiałem wpisywać ręcznie). 
 To właśnie wtedy zrodził się pomysł stworzenia prostego programu, który wykonywałby te czynności automatycznie. Zaczęłem zatem szukać sposobu i narzędzi do jego realizacji. 
 Postanowiłem użyć Javy, ponieważ znalazłem świetny samouczek na YouTube.
